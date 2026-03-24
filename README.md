@@ -34,3 +34,11 @@ ifconfig
 
 **El computador y la ESP32 deben estar conectados a la misma red**
 
+### Instrucciones para la base de datos
+
+1. Abrir Mongo Atlas.
+2. Ir a [Database and Network Access](https://cloud.mongodb.com/v2/6993ceeaa384015a68eb0d23#/security/database/users)
+3. Crear un nuevo usuario, **ADD NEW DATABASE USER**.
+4. Copiar la contraseña (Opcional si asignó una de difícil recordación).
+5. Asignar permisos de lectura y escritura en built-in-role.
+
