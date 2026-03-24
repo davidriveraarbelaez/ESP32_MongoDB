@@ -45,7 +45,12 @@ ifconfig
 ### Instrucciones para el backend
 
 1. Abrir la carpeta api
-2. Ejecutar el script server.js
+2. Crear en el archivo **.env**
+```bash
+MONGO_URI=copiar desde mongo atlas
+PORT=3000
+```
+3. Ejecutar el script server.js
 
 ```bash
 node server.js
