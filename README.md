@@ -23,7 +23,7 @@ ifconfig
 #define SERVER_URL "http://IP_PC:3000/api/dht11"
 
 // ===== SENSOR =====
-#define DHTPIN 12
+#define DHTPIN 14
 #define DHTTYPE DHT11
 
 // ===== INTERVALO =====
