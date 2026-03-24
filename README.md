@@ -1,7 +1,7 @@
 # ESP32_MongoDB
 ## Laboratorio 1 - Base de datos II
 
-### Instrucciones
+### Instrucciones para el hardware
 
 1. Clonar el repositorio
 2. Abrir la carpeta ESP32
@@ -11,7 +11,7 @@ ifconfig
 ```
 4. Crear el archivo "config.h"
 
-``cpp
+```cpp
 #ifndef CONFIG_H
 #define CONFIG_H
 
@@ -30,5 +30,7 @@ ifconfig
 #define READ_INTERVAL_MS 5000
 
 #endif
+```
 
-``
+**El computador y la ESP32 deben estar conectados a la misma red**
+
